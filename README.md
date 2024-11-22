@@ -1,6 +1,13 @@
 # SOCIAL MEDIA APP
+
 ---
-## CLONING THE REPOSITORY
+
+### PREREQUISITES
+1. 
+
+---
+
+### CLONING THE REPOSITORY
 1. Ensure GitHub Desktop is installed on your system from [desktop.github.com](https://github.com/apps/desktop)
 2. Open GitHub Desktop and sign in with your GitHub account.
 3. GitHub Desktop provides a CLI tool github for operations. Ensure it is installed:
@@ -11,3 +18,7 @@
 6. - For **MacOS**, run : `cd path/to/your/directory`
    - For **Windows**, run : `cd path\to\your\directory`
 7. To clone the repository, run : `git clone <repository-URL>`
+   
+---
+
+###
