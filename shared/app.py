@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Initialization configuration
 # (later move this configuration to config/config.py)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:12345678@localhost:3306/social_media_app'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:<enter-your-password>@localhost:3306/social_media_app'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 #app.config.from_object(Config)
 
