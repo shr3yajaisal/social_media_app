@@ -16,7 +16,8 @@
    - Click for - [How to install pip on command prompt](https://youtu.be/TqE4jBH4Me4?si=0WU8bYP9m9lbqcD3)
    - Click for - [How to install pip on terminal](https://youtu.be/ioZoC8_Hk7o?si=UFm1aVi0EP6HuXgc)
 5. GitHub Desktop
-   - Click for - [desktop.github.com](https://github.com/apps/desktop)
+   - Click for - [How to install github desktop on Windows](https://youtu.be/G4SIIp14Xx4?si=dc30HD8PTP50X8NC)
+   - Click for - [How to install github desktop on MacOS](https://youtu.be/F1Jx-3QR-NQ?si=wqdh8V-bMPqRwlhN)
 
 ---
 
@@ -66,4 +67,6 @@
 ---
 
 ### CREATING THE VIRTUAL ENVIRONMENT -
-1. 
+- ```bash
+  `python -m venv venv` ```
+- 
