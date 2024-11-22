@@ -14,17 +14,19 @@
 
 ---
 
-### CREATING THE DATABASE
-1. For MacOS -
-   - Step I - `mysql -u root -p`
-   - Step II - `<enter-your-password>`
-   - Step III - `create database social_media_app;`
-2. For Windows -
-   - Locate the MySQL `bin` Directory :
-     - Open File Explorer.
-     - Navigate to MySQL installation folder, typically found at: `C:\Program Files\MySQL\MySQL Server X.X\bin`
-     - Copy the full path.
-   - Open the System Environment Variables :
+### CREATING THE DATABASE IN MacOS
+1. Step I - `mysql -u root -p`
+2. Step II - `<enter-your-password>`
+3. Step III - `create database social_media_app;`
+
+---
+
+### CREATING A DATABASE IN WINDOWS -
+1.Locate the MySQL `bin` Directory :
+  - Open File Explorer.
+  - Navigate to MySQL installation folder, typically found at: `C:\Program Files\MySQL\MySQL Server X.X\bin`
+  - Copy the full path.
+2. Open the System Environment Variables :
      - Press `Windows + S` and search for Environment Variables.
      - Click on Edit the system environment variables.
    - Edit the PATH Variable :
