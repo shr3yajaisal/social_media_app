@@ -66,12 +66,23 @@
    
 ---
 
-### CREATING THE VIRTUAL ENVIRONMENT -
+### VIRTUAL ENVIRONMENT -
 - Open terminal.
 - Navigate to your project folder - 
   ```bash
   # For Windows
   cd path\to\your\project
+  
   # For MacOS
   cd path/to/your/project
-- 
+- Create the virtual environment -
+  ```bash
+  # This command can be used for both MacOS and Windows
+  python -m venv venv
+- Activate the virtual environment -
+  ```bash
+  # For Windows
+  venv\Scripts\activate
+
+  # For MacOS
+  source venv/bin/activate
