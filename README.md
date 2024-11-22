@@ -62,7 +62,7 @@
 3. In case, `github --version` doesn't work, then use : `gh --version`.
 4. - For **Windows**, run : `cd path\to\your\directory`
    - For **MacOS**, run : `cd path/to/your/directory`
-5. To clone the repository, run : `git clone <repository-URL>`
+5. To clone the repository, run : `git clone https://github.com/shr3yajaisal/social_media_app`
    
 ---
 
