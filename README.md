@@ -12,56 +12,56 @@
 3. Postman API application
    - Click for - [How to install Postman applciation on windows](https://youtu.be/Hmn5XeZv-GE)
    - Click for - [How to install Postman application on MacOS](https://youtu.be/PkJwV1cB0BQ)
-4. pip installation should be done.
+4. pip installation
    - Click for - [How to install pip on command prompt](https://youtu.be/TqE4jBH4Me4?si=0WU8bYP9m9lbqcD3)
    - Click for - [How to install pip on terminal](https://youtu.be/ioZoC8_Hk7o?si=UFm1aVi0EP6HuXgc)
+5. GitHub Desktop
+   - Click for - [desktop.github.com](https://github.com/apps/desktop)
 
 ---
 
 ### CREATING THE DATABASE IN MacOS
-Step I - Open terminal
-Step II - `mysql -u root -p`
-Step III - `<enter-your-password>`
-Step IV - `create database social_media_app;`
+- Step I - Open terminal
+- Step II - `mysql -u root -p`
+- Step III - `<enter-your-password>`
+- Step IV - `create database social_media_app;`
 
 ### CREATING A DATABASE IN WINDOWS -
-1. Step I - Locate the MySQL `bin` Directory :
+- Step I - Locate the MySQL `bin` Directory :
    - Open File Explorer.
    - Navigate to MySQL installation folder, typically found at: `C:\Program Files\MySQL\MySQL Server X.X\bin`
    - Copy the full path.
-2. Step II - Open the System Environment Variables :
+- Step II - Open the System Environment Variables :
    - Press `Windows + S` and search for Environment Variables.
    - Click on Edit the system environment variables.
-3. Step III - Edit the PATH Variable :
+- Step III - Edit the PATH Variable :
    - In the System Properties window, click on the Advanced tab.
    - Click on Environment Variables.
-4. Step IV - Add the MySQL Path to PATH :
+- Step IV - Add the MySQL Path to PATH :
    - Under System Variables, find and select the `Path` variable.
    - Click Edit.
-5. Step V - Add a New Entry :
+- Step V - Add a New Entry :
    - Click New.
    - Paste the copied MySQL `bin` path.
    - Click OK to close all dialog boxes.
-6. Step VI - Verify the Change :
+- Step VI - Verify the Change :
    - Open a new Command Prompt window.
    - Type - `mysql --version`
-5. Step VII - If `mysql --version` works, then run, `mysql -u root -p`.
-7. Step VIII - `<enter-your-password`
-8. Step IX - `create database social_media_app;`
+- Step VII - If `mysql --version` works, then run, `mysql -u root -p`.
+- Step VIII - `<enter-your-password`
+- Step IX - `create database social_media_app;`
 
 ---
 
 ### CLONING THE REPOSITORY
-1. Ensure GitHub Desktop is installed on your system from [desktop.github.com](https://github.com/apps/desktop)
-2. Open GitHub Desktop and sign in with your GitHub account.
-3. GitHub Desktop provides a CLI tool github for operations. Ensure it is installed:
+1. GitHub Desktop provides a CLI tool github for operations. Ensure it is installed:
    - On **Windows**, it is automatically included.
    - On **MacOS**, you may need to install it using Homebrew : `brew install github/gh/gh`
-4. Verify the GitHub installation by using : `github --version` *(syntax is same for both MacOS and Windows)*.
-5. In case, `github --version` doesn't work, then use : `gh --version`.
-6. - For **Windows**, run : `cd path\to\your\directory`
+2. Verify the GitHub installation by using : `github --version` *(syntax is same for both MacOS and Windows)*.
+3. In case, `github --version` doesn't work, then use : `gh --version`.
+4. - For **Windows**, run : `cd path\to\your\directory`
    - For **MacOS**, run : `cd path/to/your/directory`
-7. To clone the repository, run : `git clone <repository-URL>`
+5. To clone the repository, run : `git clone <repository-URL>`
    
 ---
 
