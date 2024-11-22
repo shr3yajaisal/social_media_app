@@ -8,9 +8,15 @@
 2. MySQL LTS version (8.3 or higher version)
    - For installation procedure, use the following link (for Windows) - https://youtu.be/a3HJnbYhXUc
    - For installation procedure, use the following link (for MacOS) - https://youtu.be/ODA3rWfmzg8
-5. Postman API application
+**NOTE : use simple passwords that only has characters and numbers while setting up the password for the MySQL to avoid descrepencies**
+3. Postman API application
    - For installation procedure, use the following link (for Windows) - https://youtu.be/Hmn5XeZv-GE
    - For installation procedure, use the following link (for MacOS) - https://youtu.be/PkJwV1cB0BQ
+
+---
+
+### CHANGES TO MAKE IN THE CODES
+1. 
 
 ---
 
