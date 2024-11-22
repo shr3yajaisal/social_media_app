@@ -4,17 +4,17 @@
 
 ### PREREQUISITES
 1. Python (3.8 or higher)
-   - For installation procedure, use the following link (for both MacOS and Windows) - https://youtu.be/YYXdXT2l-Gg
+   - Click for - [Installation if Python on Windows and MacOS both](https://youtu.be/YYXdXT2l-Gg)
 2. MySQL LTS version (8.3 or higher version)
-   - [how to install MySQL in windows](https://youtu.be/a3HJnbYhXUc)
-   - For installation procedure, use the following link (for MacOS) - https://youtu.be/ODA3rWfmzg8
+   - Click for - [how to install MySQL LTS version on windows](https://youtu.be/a3HJnbYhXUc)
+   - Click for - [how to install MySQL LTS version on MacOS](https://youtu.be/ODA3rWfmzg8)
    - **NOTE : use simple passwords that only has characters and numbers while setting up the password for the MySQL to avoid descrepencies (DO NOT USE SPECIAL CHARACTERS)**
 3. Postman API application
-   - For installation procedure, use the following link (for Windows) - https://youtu.be/Hmn5XeZv-GE
-   - For installation procedure, use the following link (for MacOS) - https://youtu.be/PkJwV1cB0BQ
+   - Click for - [How to install Postman applciation on windows](https://youtu.be/Hmn5XeZv-GE)
+   - Click for - [How to install Postman application on MacOS](https://youtu.be/PkJwV1cB0BQ)
 4. pip installation should be done.
-   - For installation procedure, use the following link (for Windows) - https://youtu.be/TqE4jBH4Me4?si=0WU8bYP9m9lbqcD3
-   - For installation procedure, use the following link (for MacOS) - https://youtu.be/ioZoC8_Hk7o?si=UFm1aVi0EP6HuXgc
+   - Click for - [How to install pip on command prompt](https://youtu.be/TqE4jBH4Me4?si=0WU8bYP9m9lbqcD3)
+   - Click for - [How to install pip on terminal](https://youtu.be/ioZoC8_Hk7o?si=UFm1aVi0EP6HuXgc)
 
 ---
 
