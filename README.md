@@ -23,25 +23,25 @@
 
 ### CREATING A DATABASE IN WINDOWS -
 1. Locate the MySQL `bin` Directory :
-  - Open File Explorer.
-  - Navigate to MySQL installation folder, typically found at: `C:\Program Files\MySQL\MySQL Server X.X\bin`
-  - Copy the full path.
+   - Open File Explorer.
+   - Navigate to MySQL installation folder, typically found at: `C:\Program Files\MySQL\MySQL Server X.X\bin`
+   - Copy the full path.
 2. Open the System Environment Variables :
-  - Press `Windows + S` and search for Environment Variables.
-  - Click on Edit the system environment variables.
+   - Press `Windows + S` and search for Environment Variables.
+   - Click on Edit the system environment variables.
 3. Edit the PATH Variable :
-  - In the System Properties window, click on the Advanced tab.
-  - Click on Environment Variables.
+   - In the System Properties window, click on the Advanced tab.
+   - Click on Environment Variables.
 4. Add the MySQL Path to PATH :
-  - Under System Variables, find and select the `Path` variable.
-  - Click Edit.
+   - Under System Variables, find and select the `Path` variable.
+   - Click Edit.
 5. Add a New Entry :
-  - Click New.
-  - Paste the copied MySQL `bin` path.
-  - Click OK to close all dialog boxes.
+   - Click New.
+   - Paste the copied MySQL `bin` path.
+   - Click OK to close all dialog boxes.
 6. Verify the Change :
-  - Open a new Command Prompt window.
-  - Type - `mysql --version`
+   - Open a new Command Prompt window.
+   - Type - `mysql --version`
 5. If `mysql --version` works, then run, `mysql -u root -p`.
 7. `<enter-your-password`
 8. `create database social_media_app;`
