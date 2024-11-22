@@ -3,7 +3,22 @@
 ---
 
 ### PREREQUISITES
-1. 
+1. Python (3.8 or higher)
+   - For installation procedure, use the following link (for both MacOS and Windows) - https://youtu.be/YYXdXT2l-Gg
+2. MySQL LTS version (8.3 or higher version)
+   - For installation procedure, use the following link (for Windows) - https://youtu.be/a3HJnbYhXUc
+   - For installation procedure, use the following link (for MacOS) - https://youtu.be/ODA3rWfmzg8
+5. Postman API application
+   - For installation procedure, use the following link (for Windows) - https://youtu.be/Hmn5XeZv-GE
+   - For installation procedure, use the following link (for MacOS) - https://youtu.be/PkJwV1cB0BQ
+
+---
+
+### CREATING THE DATABASE
+1. For MacOS -
+   - Step I - `mysql -u root -p`
+   - Step II - `<enter-your-password>`
+   - Step III - `create database social_media_app;`
 
 ---
 
@@ -15,8 +30,8 @@
    - On **MacOS**, you may need to install it using Homebrew : `brew install github/gh/gh`
 4. Verify the GitHub installation by using : `github --version` *(syntax is same for both MacOS and Windows)*.
 5. In case, `github --version` doesn't work, then use : `gh --version`.
-6. - For **MacOS**, run : `cd path/to/your/directory`
-   - For **Windows**, run : `cd path\to\your\directory`
+6. - For **Windows**, run : `cd path\to\your\directory`
+   - For **MacOS**, run : `cd path/to/your/directory`
 7. To clone the repository, run : `git clone <repository-URL>`
    
 ---
