@@ -111,3 +111,10 @@
    - Go to the line number 11.
    - replace `<enter-your-password>` with your actual MySQL password.
 
+---
+
+### RUNNING THE app_runner.py -
+```bash
+python app_runner.py
+OR
+python3 app_runner.py
