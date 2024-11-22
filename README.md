@@ -19,10 +19,10 @@
 ---
 
 ### CREATING THE DATABASE IN MacOS
-1. Step I - Open terminal
-2. Step II - `mysql -u root -p`
-3. Step III - `<enter-your-password>`
-4. Step IV - `create database social_media_app;`
+Step I - Open terminal
+Step II - `mysql -u root -p`
+Step III - `<enter-your-password>`
+Step IV - `create database social_media_app;`
 
 ### CREATING A DATABASE IN WINDOWS -
 1. Step I - Locate the MySQL `bin` Directory :
