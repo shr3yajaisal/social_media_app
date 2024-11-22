@@ -66,7 +66,7 @@
    
 ---
 
-### ACTIVATING THE VIRTUAL ENVIRONMENT AND INSTALLING REQUIREMENTS' PACKAGES -
+### ACTIVATING THE VIRTUAL ENVIRONMENT AND INSTALLING REQUIREMENTS' PACKAGES 
 - Open terminal.
 - Navigate to your project folder - 
   ```bash
@@ -98,3 +98,6 @@
 ---
 
 ### CHANGES TO MAKE IN THE CODE FILES
+1. For `social_media_app/app_runner.py` -
+   - Copy the `path` of the `venv/bin/python`.
+   - replace `<version/of/Python/used/within/the/venv>` in line numbers 5, 9 and 13 with the `path`.
