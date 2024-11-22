@@ -19,6 +19,30 @@
    - Step I - `mysql -u root -p`
    - Step II - `<enter-your-password>`
    - Step III - `create database social_media_app;`
+2. For Windows -
+   - Locate the MySQL `bin` Directory :
+     - Open File Explorer.
+     - Navigate to MySQL installation folder, typically found at: `C:\Program Files\MySQL\MySQL Server X.X\bin`
+     - Copy the full path.
+   - Open the System Environment Variables :
+     - Press `Windows + S` and search for Environment Variables.
+     - Click on Edit the system environment variables.
+   - Edit the PATH Variable :
+     - In the System Properties window, click on the Advanced tab.
+     - Click on Environment Variables.
+   - Add the MySQL Path to PATH :
+     - Under System Variables, find and select the `Path` variable.
+     - Click Edit.
+   - Add a New Entry :
+     - Click New.
+     - Paste the copied MySQL `bin` path.
+     - Click OK to close all dialog boxes.
+   - Verify the Change :
+     - Open a new Command Prompt window.
+     - Type - `mysql --version`
+   - If `mysql --version` works, then run, `mysql -u root -p`.
+   - `<enter-your-password`
+   - `create database social_media_app;`
 
 ---
 
