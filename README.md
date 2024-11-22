@@ -4,7 +4,7 @@
 
 ### PREREQUISITES
 1. Python (3.8 or higher)
-   - Click for - [Installation if Python on Windows and MacOS both](https://youtu.be/YYXdXT2l-Gg)
+   - Click for - [How to install Python on Windows and MacOS both](https://youtu.be/YYXdXT2l-Gg)
 2. MySQL LTS version (8.3 or higher version)
    - Click for - [how to install MySQL LTS version on windows](https://youtu.be/a3HJnbYhXUc)
    - Click for - [how to install MySQL LTS version on MacOS](https://youtu.be/ODA3rWfmzg8)
