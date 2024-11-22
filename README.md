@@ -79,6 +79,8 @@
   ```bash
   # For both MacOS and Windows
   python -m venv venv
+  OR
+  python3 -m venv venv
 - Activate the virtual environment -
   ```bash
   # For Windows
@@ -90,10 +92,14 @@
   ```bash
   # For both MacOS and Windows
   pip install -r requirements.txt
+  OR
+  pip3 install -r requirements.txt
 - Installing the package "cryptography" -
   ```bash
   # For both MacOS and Windows
-  pip install cryptography 
+  pip install cryptography
+  OR
+  pip3 install cryptography
 
 ---
 
