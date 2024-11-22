@@ -67,6 +67,11 @@
 ---
 
 ### CREATING THE VIRTUAL ENVIRONMENT -
-- ```bash
-  `python -m venv venv` ```
+- Open terminal.
+- Navigate to your project folder - 
+  ```bash
+  # For Windows
+  `cd path\to\your\project`
+  # For MacOS
+  `cd path/to/your/project`
 - 
