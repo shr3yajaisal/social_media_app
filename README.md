@@ -98,6 +98,10 @@
 ---
 
 ### CHANGES TO MAKE IN THE CODE FILES
-1. For `social_media_app/app_runner.py` -
+1. social_media_app/app_runner.py -
    - Copy the `path` of the `venv/bin/python`.
    - replace `<version/of/Python/used/within/the/venv>` in line numbers 5, 9 and 13 with the `path`.
+2. user_app/app.py -
+   - Go to the line number 11.
+   - replace `<enter-your-password>` with your actual MySQL password.
+
