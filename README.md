@@ -49,7 +49,7 @@
    - Open a new Command Prompt window.
    - Type - `mysql --version`
 - Step VII - If `mysql --version` works, then run, `mysql -u root -p`.
-- Step VIII - `<enter-your-password`
+- Step VIII - `<enter-your-password>`
 - Step IX - `create database social_media_app;`
 
 ---
@@ -66,7 +66,7 @@
    
 ---
 
-### VIRTUAL ENVIRONMENT -
+### ACTIVATING THE VIRTUAL ENVIRONMENT AND INSTALLING REQUIREMENTS' PACKAGES -
 - Open terminal.
 - Navigate to your project folder - 
   ```bash
@@ -77,7 +77,7 @@
   cd path/to/your/project
 - Create the virtual environment -
   ```bash
-  # This command can be used for both MacOS and Windows
+  # For both MacOS and Windows
   python -m venv venv
 - Activate the virtual environment -
   ```bash
@@ -86,3 +86,15 @@
 
   # For MacOS
   source venv/bin/activate
+- Installing the packages of the requirements.txt file -
+  ```bash
+  # For both MacOS and Windows
+  pip install -r requirements.txt
+- Installing the package "cryptography" -
+  ```bash
+  # For both MacOS and Windows
+  pip install cryptography 
+
+---
+
+### CHANGES TO MAKE IN THE CODE FILES
