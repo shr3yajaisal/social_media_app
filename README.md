@@ -71,7 +71,7 @@
 - Navigate to your project folder - 
   ```bash
   # For Windows
-  `cd path\to\your\project`
+  cd path\to\your\project
   # For MacOS
-  `cd path/to/your/project`
+  cd path/to/your/project
 - 
