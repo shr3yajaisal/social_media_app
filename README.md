@@ -115,6 +115,7 @@
 
 ### RUNNING THE app_runner.py -
 ```bash
+#For both MacOS and Windows
 python app_runner.py
 OR
 python3 app_runner.py
