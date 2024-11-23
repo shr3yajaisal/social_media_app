@@ -3,6 +3,42 @@
 ---
 
 ## ABOUT SOCIAL MEDIA APP
+This **Social Media App** is a Flask-based application designed to provide users with an engaging platform for seamless communication, content sharing, and interaction. It features essential functionalities such as user account management, direct messaging (DMs), and post creation. Built using Python, Flask, and MySQL, this app serves as a demonstration of modular application design and API integration for modern social media platforms.
+
+---
+
+### KEY FEATURES
+1. User Account Management
+   - Users can create accounts, update their profiles, and manage their information.
+   - Passwords are securely stored using encryption mechanisms.
+2. Posts
+   - Users can create, read, update, and delete (CRUD) posts.
+   - The app supports multimedia content integration for posts.
+3. Direct Messaging (DMs)
+   - Users can send and receive direct messages.
+   - Users can also delete and edit a message that has already been sent.
+4. Database Integration
+   - ata is stored in a MySQL database with tables for users, posts, and messages.
+   - SQLAlchemy is used for ORM (Object-Relational Mapping), making database operations efficient and secure.
+5. API-Driven Design
+   - The app's endpoints are structured for easy integration with client-side applications or third-party systems.
+   - Postman is recommended for API testing and debugging.
+6. Scalable Architecture
+   - The application is divided into modules: user_app, post_app, and message_app, making it easy to maintain and extend.
+   - Shared resources and configurations are managed centrally in the shared folder.
+7. Real-Time Communication
+   - Implements WebSocket or polling-based communication (future improvement).
+     
+---
+
+## TECH STACK
+1. Backend Framework: Flask (Python)
+2. Database: MySQL
+3. Frontend/API Testing: Postman
+4. Additional Libraries:
+   - SQLAlchemy for database management.
+   - Flask-Migrate for handling database migrations.
+   - Cryptography for secure password handling.
 
 ---
 
@@ -220,4 +256,4 @@ This guide will help you set up, configure, and run the Social Media App. Use Po
 
 ---
 
-FOR ANY SUGGESTIONS OR FURTHER QUERIES, YOU CAN MAIL ME TO - shreyajaisal90@gmail.com
+For further setup and usage instructions, refer to the "INSTRUCTIONS TO RUN SOCIAL MEDIA APP" section above. If you have suggestions or questions, feel free to email me at shreyajaisal90@gmail.com.
