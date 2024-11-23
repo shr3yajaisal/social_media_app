@@ -31,7 +31,7 @@ This **Social Media App** is a Flask-based application designed to provide users
      
 ---
 
-## TECH STACK
+### TECH STACK
 1. Backend Framework: Flask (Python)
 2. Database: MySQL
 3. Frontend/API Testing: Postman
@@ -248,11 +248,6 @@ This **Social Media App** is a Flask-based application designed to provide users
      - `message_app/routes/message_routes.py`
 
 8. And this is how you can run your social_media_app.
-
----
-
-### CONCLUSION
-This guide will help you set up, configure, and run the Social Media App. Use Postman to test APIs for users, posts, and messages as per the endpoints defined in the app's `routes` files.
 
 ---
 
