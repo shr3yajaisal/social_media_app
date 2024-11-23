@@ -27,7 +27,7 @@
 - Step III - `<enter-your-password>`
 - Step IV - `create database social_media_app;`
 
-### CREATING A DATABASE IN WINDOWS -
+### CREATING A DATABASE IN WINDOWS 
 - Step I - Locate the MySQL `bin` Directory :
    - Open File Explorer.
    - Navigate to MySQL installation folder, typically found at: `C:\Program Files\MySQL\MySQL Server X.X\bin`
@@ -113,13 +113,30 @@
 
 ---
 
-### RUNNING THE app_runner.py -
-   ```bash
-   # For both MacOS and Windows
-   python app_runner.py
-   OR
-   python3 app_runner.py
+### RUNNING THE app_runner.py 
+- Run on the terminal / command prompt -
+  ```bash
+  # For both MacOS and Windows
+  python app_runner.py
+  OR
+  python3 app_runner.py 
 
 ---
 
-### 
+### USING THE POSTMAN APPLICATION 
+1. After running the app_runner.py, you can see, you will be getting three addresses of the server -
+   - Address of the server for user_app - http://127.0.0.1:5001
+   - Address of the server for post_app - http://127.0.0.1:5002
+   - Address of the server for message_app - http://127.0.0.1:5003
+2. Now, for sending message or to create post, first of all you need to create a user.
+3. When you go to `social_media_app/shared/post_model.py`, you can see, you have the structure of the user table.
+
+#### CREATING A REQUEST ON POSTMAN APPLICATION -
+   - **Postman app** - 
+   - open `collections`.
+   - select the `+` sign i.e., `create new collection`.
+   - select `blank collection`.
+   - Give name to your collection.
+   - Now, select the **option bar** of your created collection.
+   - select the option `Add request`.
+   - Give name to your request. For example, here you are going to create a users request, so name it `users`.
