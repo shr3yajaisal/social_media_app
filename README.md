@@ -113,6 +113,27 @@
 
 ---
 
+### CONNECTING THE SOCIAL_MEDIA_APP TO DATABASE 
+1. Running the Flask application -
+   ```bash
+   # For Windows -
+   set FLASK_APP=shared/app.py
+   # For MacOS -
+   export FLASK_APP=shared/app.py
+2. Initializing the database migration system -
+   ```bash
+   # For both Windows and MacOS
+   flask db init
+3. Generating database migration script -
+   ```bash
+   # For both Windows and MacOS
+   flask db migrate -m "Added new table for user profiles"
+4. To apply the latest database migration scripts -
+   ```bash
+   
+
+---
+
 ### RUNNING THE app_runner.py 
 - Run on the terminal / command prompt -
   ```bash
@@ -131,12 +152,34 @@
 2. Now, for sending message or to create post, first of all you need to create a user.
 3. When you go to `social_media_app/shared/post_model.py`, you can see, you have the structure of the user table.
 
-#### CREATING A REQUEST ON POSTMAN APPLICATION -
-   - **Postman app** - 
+4. **CREATING A COLLECTION ON POSTMAN APPLICATION -**
+   - Open the Postman application 
    - open `collections`.
    - select the `+` sign i.e., `create new collection`.
    - select `blank collection`.
    - Give name to your collection.
+
+5. **CREATING A REQUEST ON POSTMAN APPLICATION -**
    - Now, select the **option bar** of your created collection.
    - select the option `Add request`.
    - Give name to your request. For example, here you are going to create a users request, so name it `users`.
+   - Place where, `enter URL or paste text` is written, enter the address of the server. Here, we are making the request for users, so we will be adding the address of the user_app. i.e., `http://127.0.0.1:5001`
+   - Now go to the `social_media_app/routes/user_routes.py`.
+   - There, you can see that the endpoint of `create_user()` function is `/api/users` and the method is `POST`.
+   - Now enter the URL as - `http://127.0.0.1:5001/api/users` and select the method as `POST`.
+   - Now, go to the `Headers` column, enter the **key** as `Content-Type` and enter the **value** as `application/json`
+   - Now, go to the `Body` column, select `raw` and then, `json`.
+   - In the blank space provided, enter the values of the users in the json format.
+   - Example -
+     ```bash
+     {
+        "username" : "Shreya",
+        "email" : "shreya@example.com",
+        "password" : "shreya@123",
+        "full_name" : "Shreya Jaisal",
+        "bio" : "backend developer"
+     }
+   - Now click the `send` button.
+   - 
+  
+6. 
