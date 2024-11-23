@@ -130,7 +130,8 @@
    flask db migrate -m "Added new table for user profiles"
 4. To apply the latest database migration scripts -
    ```bash
-   
+   # For both Windows and MacOS
+   flask db upgrade
 
 ---
 
@@ -180,6 +181,7 @@
         "bio" : "backend developer"
      }
    - Now click the `send` button.
-   - 
+   - You will recieve a message like this `{ "message": "User created successfully", "user_id": 1 }`
+   - And hence, a user is successfully creted in your database.
   
 6. 
