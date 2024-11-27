@@ -216,11 +216,13 @@ This **Social Media App** is a Flask-based application designed to provide users
   # For both MacOS and Windows
   python app_runner.py
   OR
-  python3 app_runner.py 
+  python3 app_runner.py
+  
 - The servers will be available at -
   - User App: http://127.0.0.1:5001
   - Post App: http://127.0.0.1:5002
   - Message App: http://127.0.0.1:5003
+    
 ---
 
 ### USING THE POSTMAN APPLICATION 
@@ -260,13 +262,13 @@ This **Social Media App** is a Flask-based application designed to provide users
      { "message": "User created successfully", "user_id": 1 }
    - And hence, a user is successfully created in your database.
   
-6. Explore Additional Routes:
+5. Explore Additional Routes:
    - check `routes` in -
      - `user_app/routes/user_routes.py`
      - `post_app/routes/post_routes.py`
      - `message_app/routes/message_routes.py`
 
-8. And this is how you can run your social_media_app.
+6. And this is how you can run your social_media_app.
 
 ---
 
