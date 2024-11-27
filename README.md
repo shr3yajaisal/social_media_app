@@ -176,6 +176,7 @@ This **Social Media App** is a Flask-based application designed to provide users
    - Open `social_media_app/app_runner.py`.
    - Copy the `path` of the `venv/bin/python`.
    - replace `<version/of/Python/used/within/the/venv>` in line numbers 5, 9 and 13 with the `path`.
+     
 2. Update MySQL password -
    - In `user_app/app.py`, `shared/app.py`, `post_app/app.py` and `message_app/app.py` -
    - Go to the line number 11.
@@ -191,14 +192,17 @@ This **Social Media App** is a Flask-based application designed to provide users
    - For MacOS -
      ```bash
      export FLASK_APP=shared/app.py
+     
 2. Initializing migrations -
    ```bash
    # For both Windows and MacOS
    flask db init
+   
 3. Generating a migration script -
    ```bash
    # For both Windows and MacOS
    flask db migrate -m "Added new table for user profiles"
+   
 4. Applying the migrations -
    ```bash
    # For both Windows and MacOS
