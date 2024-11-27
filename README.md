@@ -115,12 +115,14 @@ This **Social Media App** is a Flask-based application designed to provide users
    - **macOS:** Install using -
      - ```bash
        brew install github/gh/gh
+       
 2. Verify installation -
    - ```bash
      github --version
    - if it doesn't work, use -
      ```bash
      gh --version
+     
 3. Clone the repository:
    ```bash
    git clone https://github.com/shr3yajaisal/social_media_app
