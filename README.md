@@ -5,13 +5,6 @@
 ## Table of Contents
 - [About Social Media App](#about-social-media-app)
 - [Key Features](#key-features)
-  - [User Account Management](#user-account-management)
-  - [Posts](#posts)
-  - [Direct Messaging (DMs)](#direct-messaging-dms)
-  - [Database Integration](#database-integration)
-  - [API-Driven Design](#api-driven-design)
-  - [Scalable Architecture](#scalable-architecture)
-  - [Real-Time Communication](#real-time-communication)
 - [Tech Stack](#tech-stack)
 - [Instructions to Run Social Media App](#instructions-to-run-social-media-app)
   - [Prerequisites](#prerequisites)
@@ -24,9 +17,6 @@
   - [Connecting the Social Media App to Database](#connecting-the-social-media-app-to-database)
   - [Running the Application](#running-the-application)
   - [Using the Postman Application](#using-the-postman-application)
-    - [Creating a Collection on Postman](#creating-a-collection-on-postman)
-    - [Creating a Request on Postman](#creating-a-request-on-postman)
-- [Contact](#contact)
 
 ---
 
