@@ -2,6 +2,12 @@
 
 ---
 
+## TABLE OF CONTENT
+- [ABOUT SOCIAL MEDIA APP](##ABOUT SOCIAL MEDIA APP)
+- [KEY FEATURES](### KEY FEATURES)
+
+---
+
 ## ABOUT SOCIAL MEDIA APP
 This **Social Media App** is a Flask-based application designed to provide users with an engaging platform for seamless communication, content sharing, and interaction. It features essential functionalities such as user account management, direct messaging (DMs), and post creation. Built using Python, Flask, and MySQL, this app serves as a demonstration of modular application design and API integration for modern social media platforms.
 
