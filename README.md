@@ -9,8 +9,6 @@
 - [Instructions to Run Social Media App](#instructions-to-run-social-media-app)
   - [Prerequisites](#prerequisites)
   - [Creating the Database](#creating-the-database)
-    - [Creating a Database in MacOS](#creating-a-database-in-macos)
-    - [Creating a Database in Windows](#creating-a-database-in-windows)
   - [Cloning the Repository](#cloning-the-repository)
   - [Activating the Virtual Environment and Installing Requirements' Packages](#activating-the-virtual-environment-and-installing-requirements-packages)
   - [Configuring the Code](#configuring-the-code)
