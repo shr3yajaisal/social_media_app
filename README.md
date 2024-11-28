@@ -2,7 +2,7 @@
 
 ---
 
-## Table of Contents
+## TABLE OF CONTENTS
 - [About Social Media App](#about-social-media-app)
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
