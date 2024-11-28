@@ -2,9 +2,31 @@
 
 ---
 
-## TABLE OF CONTENT
-- [ABOUT SOCIAL MEDIA APP](#ABOUT SOCIAL MEDIA APP)
-- [KEY FEATURES](#KEY FEATURES)
+## Table of Contents
+- [About Social Media App](#about-social-media-app)
+- [Key Features](#key-features)
+  - [User Account Management](#user-account-management)
+  - [Posts](#posts)
+  - [Direct Messaging (DMs)](#direct-messaging-dms)
+  - [Database Integration](#database-integration)
+  - [API-Driven Design](#api-driven-design)
+  - [Scalable Architecture](#scalable-architecture)
+  - [Real-Time Communication](#real-time-communication)
+- [Tech Stack](#tech-stack)
+- [Instructions to Run Social Media App](#instructions-to-run-social-media-app)
+  - [Prerequisites](#prerequisites)
+  - [Creating the Database](#creating-the-database)
+    - [Creating a Database in MacOS](#creating-a-database-in-macos)
+    - [Creating a Database in Windows](#creating-a-database-in-windows)
+  - [Cloning the Repository](#cloning-the-repository)
+  - [Activating the Virtual Environment and Installing Requirements' Packages](#activating-the-virtual-environment-and-installing-requirements-packages)
+  - [Configuring the Code](#configuring-the-code)
+  - [Connecting the Social Media App to Database](#connecting-the-social-media-app-to-database)
+  - [Running the Application](#running-the-application)
+  - [Using the Postman Application](#using-the-postman-application)
+    - [Creating a Collection on Postman](#creating-a-collection-on-postman)
+    - [Creating a Request on Postman](#creating-a-request-on-postman)
+- [Contact](#contact)
 
 ---
 
