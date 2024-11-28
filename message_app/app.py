@@ -5,7 +5,7 @@ from flask import Flask
 from shared.utils.db_utils import db
 from message_app.routes.message_route import message_bp 
 
-app = Flask(__name__)
+app = Flask (__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:<enter-your-password>@localhost:3306/social_media_app'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
