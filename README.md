@@ -7,14 +7,6 @@
 - [Key Features](#key-features)
 - [Tech Stack](#tech-stack)
 - [Instructions to Run Social Media App](#instructions-to-run-social-media-app)
-  - [Prerequisites](#prerequisites)
-  - [Creating the Database](#creating-the-database)
-  - [Cloning the Repository](#cloning-the-repository)
-  - [Activating the Virtual Environment and Installing Requirements' Packages](#activating-the-virtual-environment-and-installing-requirements-packages)
-  - [Configuring the Code](#configuring-the-code)
-  - [Connecting the Social Media App to Database](#connecting-the-social-media-app-to-database)
-  - [Running the Application](#running-the-application)
-  - [Using the Postman Application](#using-the-postman-application)
 
 ---
 
