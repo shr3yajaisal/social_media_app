@@ -273,4 +273,3 @@
 ---
 
 For further setup and usage instructions, refer to the "INSTRUCTIONS TO RUN SOCIAL MEDIA APP" section above. If you have suggestions or questions, feel free to email me at shreyajaisal90@gmail.com.
-jaisal.shreya10@ce.du.ac.in
